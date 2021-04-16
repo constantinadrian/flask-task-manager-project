@@ -7,6 +7,8 @@ $(document).ready(function () {
     
     $('.tooltipped').tooltip();
 
+    $('select').formSelect();
+
     $('.datepicker').datepicker({
         format: "dd mmmm, yyyy",
         yearRange: 3,
